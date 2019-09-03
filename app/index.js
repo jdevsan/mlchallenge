@@ -9,7 +9,7 @@ const {url, dbName, mutCollection, adnCollection} = require('./dbkeys')
 const client = new MongoClient(url,{ useUnifiedTopology: true, useNewUrlParser: true});
 
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 8080);
 
 app.use(bodyParser.json());
 

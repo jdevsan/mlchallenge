@@ -27,7 +27,7 @@ describe('Suite >', () => {
     });
     
     describe('isMutant >', () => {
-        it('Should return true', done => {
+        it('Should return true when founds two or more mutant dna coincidences', done => {
             const dna = ["ATGCTA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"];
             
             Mutant.isMutant(dna, mutantCollection, dnaCollection, (err, isMutant) => {
@@ -37,7 +37,7 @@ describe('Suite >', () => {
         })
         
         describe('isMutant >', () => {
-            it('Should return false', done => {
+            it('Should return false when found less than two dna coincidences', done => {
                 const dna = ["CTGCGA","CAGTGC","TTATGT","AGAAGG","TCCCTA","TCACTG"]
                 
                 Mutant.isMutant(dna, mutantCollection, dnaCollection, (err, isMutant) => {

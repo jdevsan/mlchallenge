@@ -1,13 +1,14 @@
 {
   "name": "mlchallenge",
   "version": "1.0.0",
-  "description": "",
+  "description": "ml challenge 2019",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon app/index.js",
-    "test": "mocha app/test/test.js"
+    "start": "node app/index.js",
+    "test": "mocha app/test/test.js",
+    "dev": "nodemon app/index.js" 
   },
-  "author": "",
+  "author": "giuzepelin@gmail.com",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -19,5 +20,9 @@
   },
   "devDependencies": {
     "mocha": "^6.2.0"
+  },
+  "engines": {
+    "node": "8.12.0",
+    "npm": "6.4.1"
   }
 }
