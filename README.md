@@ -124,6 +124,7 @@ Tecnologias Utilizadas para el proyecto:
     "node": "8.12.0",
     "npm": "6.4.1"
   }
+  ```
 
      
 Loguearse con la cuenta google correspondiente
