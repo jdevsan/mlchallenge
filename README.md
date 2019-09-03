@@ -66,6 +66,7 @@ Tecnologias Utilizadas para el proyecto:
     "count_human_dna": 16,
     "ratio": "0.06"
 }
+
  ```
  
  # Google Cloud Remote Api
@@ -101,6 +102,7 @@ Tecnologias Utilizadas para el proyecto:
     "count_human_dna": 16,
     "ratio": "0.06"
 }
+
  ```
 
 ## Google Cloud App deploy
