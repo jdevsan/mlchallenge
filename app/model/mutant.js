@@ -36,7 +36,7 @@ module.exports = {
    
       stats.count_mutant_dna = isMutant ? stats.count_mutant_dna + 1 : stats.count_mutant_dna;
       stats.count_human_dna = isMutant ? stats.count_human_dna : stats.count_human_dna + 1;
-      stats.ratio = (stats.count_mutant_dna / stats.count_human_dna).toFixed(2);
+      stats.ratio = ((stats.count_mutant_dna + stats.count_human_dna) / 2).toFixed(2);
       
       mutantCollection.findOneAndUpdate({ '_id': stats._id}, { $set: { ...stats } }, { upsert: true}, (err, rows) => {
         cb(err, mutCountSeq >= minSeq);

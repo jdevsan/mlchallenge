@@ -47,7 +47,7 @@ module.exports = {
             "documents": [
               {
                 "_id": {
-                  "id": "]l«ÜrJ\u000bÎJzÆ"
+                  "id": "]mÏØÄëþ/äRýÜ"
                 },
                 "count_mutant_dna": 1,
                 "count_human_dna": 1,
@@ -61,13 +61,13 @@ module.exports = {
               {
                 "adn": "ATGCTA",
                 "_id": {
-                  "id": "]l«ÜrJ\u000bÎJzÅ"
+                  "id": "]mÏØÄëþ/äRýÛ"
                 }
               },
               {
                 "adn": "CTGCGA",
                 "_id": {
-                  "id": "]l«ÜrJ\u000bÎJzÇ"
+                  "id": "]mÏØÄëþ/äRýÝ"
                 }
               }
             ]
