@@ -175,6 +175,20 @@ Resultado esperado:
 100 Iterations Performance
 
  ![alt text](https://ia601404.us.archive.org/27/items/capturadepantalla20190902alas23.39.23_201909/Captura%20de%20pantalla%202019-09-02%20a%20las%2023.39.23.png)
+
+ ## Test Stress 2
+
+10.000 Iterations config
+
+ ![alt text](https://ia601506.us.archive.org/24/items/capturadepantalla20190903alas21.00.32/Captura%20de%20pantalla%202019-09-03%20a%20las%2021.00.43.png)
+
+ 10.000 Iterations Chart
+
+![alt text](https://ia601506.us.archive.org/24/items/capturadepantalla20190903alas21.00.32/Captura%20de%20pantalla%202019-09-03%20a%20las%2021.00.19.png)
+ 
+
+ 10.000 Iterations Performance
+ ![alt text](https://ia601506.us.archive.org/24/items/capturadepantalla20190903alas21.00.32/Captura%20de%20pantalla%202019-09-03%20a%20las%2021.00.32.png)
               
       
   
